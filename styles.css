@@ -31,20 +31,21 @@ body {
 
 /* Apply a fade-in animation to headers */
 h1 {
+   
   margin: 0;
   color: #ffffff;
   animation: fadeIn 2s ease-in-out;
 }
 h2{
   margin: 0;
-  color: #f8f7f7;
+  color: #f7f7f8;
   animation: fadeIn 2s ease-in-out;
 }
 
 /* Simple hover animation for links */
 nav a, footer a {
   text-decoration: none;
-  color: #7944ba;
+  color: #a9afe4;
   transition: color 0.3s ease;
 }
 
@@ -76,21 +77,23 @@ nav a:hover, footer a:hover {
   
   nav a {
     text-decoration: none;
-    color: #7944ba; /* Light purple for links */
+    color: #6c7ecf; /* Light purple for links */
   }
   
   main {
     max-width: 70%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #141720; /* Background color */
+    background-color: #13161f; /* Background color */
     border-radius: 30px;
-    box-shadow: 0 0px 1085px rgba(0, 89, 255, 0.192);
+    box-shadow: 0 0px 1085px rgba(46, 51, 119, 0.726);
     animation: fadeIn 0.7s ease-in; /* Add shadow */
   }
   
+ 
   
   section {
+    
     margin-bottom: 40px;
   }
   
@@ -101,7 +104,8 @@ nav a:hover, footer a:hover {
   
   footer p {
     margin: 5px 0;
-    color: #9e9e9e; /* Light gray for footer text */
+    padding: 5px;
   }
+  
   
   
