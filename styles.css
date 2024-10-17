@@ -82,17 +82,16 @@ nav a:hover, footer a:hover {
 }
 
 .project_box {
-  flex: 0 0 200px; /* Fixed width for project boxes */
-  height: 200px;
+  flex: 0 0 240px; /* Fixed width for project boxes */
+  height: 130px;
   background-color: #46496131;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   text-align: left;
   white-space: normal; /* Ensure text wraps inside the box */
   overflow: hidden; /* Hide overflow */
   text-overflow: ellipsis; /* Adds ellipsis to overflowing text */
 }
-
 /* Custom Scrollbar for Webkit Browsers */
 .projects_container::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */
