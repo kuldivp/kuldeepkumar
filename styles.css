@@ -69,10 +69,50 @@ nav a:hover, footer a:hover {
     animation: fadeIn 0.7s ease-in; 
   }
   section {
-    
     margin-bottom: 40px;
   }
-  
+.projects_container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-behavior: smooth;
+  border-radius: 10px;
+  max-width: 100%; /* Ensure the container doesn’t exceed the viewport width */
+  white-space: nowrap; /* Prevents items from wrapping onto a new line */
+}
+
+.project_box {
+  flex: 0 0 200px; /* Fixed width for project boxes */
+  height: 200px;
+  background-color: #46496131;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  white-space: normal; /* Ensure text wraps inside the box */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Adds ellipsis to overflowing text */
+}
+
+/* Custom Scrollbar for Webkit Browsers */
+.projects_container::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  background: #13161f; /* Background of the scrollbar */
+}
+
+.projects_container::-webkit-scrollbar-thumb {
+  background: #686d99; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded scrollbar thumb */
+}
+
+.projects_container {
+  scrollbar-width: thin; /* Use a thin scrollbar */
+  scrollbar-color: #686d99 #13161f; /* Scrollbar color and background */
+}
+
+
+
+
+
   p, ul {
     font-size: 1em;
     line-height: 1.6;
