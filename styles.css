@@ -6,6 +6,12 @@ body {
     background-color: #000000; /* Dark background */
     color: #ffffff; /* Light text */
   }
+ /* Change the background and text color of selected text */
+ ::selection {
+  background-color: rgb(190, 197, 218); 
+   color: rgb(8, 1, 22); 
+  
+}
   header {
     text-align: center;
     padding: 20px;  
